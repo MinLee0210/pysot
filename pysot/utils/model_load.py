@@ -4,7 +4,6 @@ import logging
 
 import torch
 
-
 from pysot.utils.log_helper import setup_logger
 
 logger = setup_logger("pysot")

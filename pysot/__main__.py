@@ -1,18 +1,17 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
 
 import argparse
+from pathlib import Path
 
 import cv2
 import numpy as np
 import torch
-from pathlib import Path
+
+from pysot.cfg.mapping import ModelConfigBuilder
 from pysot.core.config import cfg
 from pysot.models.model_builder import ModelBuilder
 from pysot.tracker.tracker_builder import build_tracker
-from pysot.cfg.mapping import ModelConfigBuilder
-from pysot.utils.download_utils import download_file, download_youtube
-from pysot.utils.log_helper import setup_logger
-from pysot.utils.video_utils import get_frames
+from pysot.utils import download_file, download_youtube, setup_logger, get_frames
 
 logger = setup_logger("pysot")
 

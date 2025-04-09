@@ -1,6 +1,7 @@
 import gdown
 from pytubefix import YouTube
 from pytubefix.cli import on_progress
+
 from pysot.utils.log_helper import setup_logger
 
 logger = setup_logger("pysot")
