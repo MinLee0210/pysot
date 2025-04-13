@@ -36,10 +36,8 @@ PySOT's evaluation toolkit supports the following datasets:
 ## Roadmap
 
 - [x] Simplify inference procedures via CLI.
-- [ ] Streamline evaluation processes via CLI.
-- [ ] Automate data downloads (model weights, datasets, videos).
 - [ ] Simplify training setup via CLI.
-- [ ] Release first official package.
+- [ ] Automate data downloads (model weights, datasets, videos).
 - [ ] Expand documentation.
 
 For detailed plans, refer to our [Roadmap Document](asset/roadmap/TODO.md).
